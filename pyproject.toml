@@ -1,0 +1,27 @@
+[project]
+name = "jemdoc-cvx"
+version = "1.0.0"
+description = "jemdoc-cvx, a modernized fork of jemdoc with optional KaTeX rendering."
+readme = { text = "jemdoc-cvx (see repository for full documentation).", content-type = "text/plain" }
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Alexandros E. Tzikas" },
+]
+keywords = ["jemdoc", "katex", "math", "static-site"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+  "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/alextzik/alextzik.github.io"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+script-files = ["jemdoc"]
