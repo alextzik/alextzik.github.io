@@ -68,9 +68,10 @@ body {
 	padding-right: 1.0em;
 	/* Keep text readable: cap line length and center the content column. */
 	box-sizing: border-box;
-	max-width: 75ch;
-	width: min(75ch, 100%);
-	margin: 0 auto;
+	max-width: 140ch;
+	width: min(140ch, 100%);
+	margin: 0;
+	justify-self: start;
 	border: none;
 	background: #fbfaf7;
 	text-align: left;
