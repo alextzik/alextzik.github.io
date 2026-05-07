@@ -1,4 +1,4 @@
-DOCS = index papers repos espresso
+DOCS = index papers
 HTML = $(addprefix build/, $(addsuffix .html, $(DOCS)))
 
 JEMDOC ?= ./jemdoc
