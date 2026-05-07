@@ -1,0 +1,16 @@
+# Build output
+/build/
+/_site/
+
+# Node
+/node_modules/
+
+# jemdoc-cvx KaTeX cache
+/katexcache/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# macOS
+.DS_Store

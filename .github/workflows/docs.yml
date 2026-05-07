@@ -1,4 +1,4 @@
-name: Deploy docs
+name: Deploy site
 
 on:
   push:
@@ -32,24 +32,14 @@ jobs:
       - name: Install KaTeX (pinned in package.json)
         run: npm install
 
-      - name: Build docs
-        run: make docs
+      - name: Build site
+        run: make clean && make
 
       - name: Stage deploy directory
-        # The rendered HTML lives in www/html/, but it links to a few assets
-        # that live elsewhere in the repo: the default-theme stylesheet
-        # (jemdoc-cvx.css) and its self-hosted woff2 fonts, the legacy theme
-        # files (jemdoc.css + theme variants) for users who load them, the
-        # .jemdoc sources (because `showsource` pages link back to them), and
-        # dist/jemdoc.vim (linked from stuff.jemdoc).
         run: |
+          rm -rf _site
           mkdir -p _site
-          cp -r www/html/. _site/
-          cp css/jemdoc-cvx.css css/jemdoc.css css/jacob.css _site/
-          mkdir -p _site/fonts
-          cp css/fonts/*.woff2 _site/fonts/
-          cp www/*.jemdoc _site/
-          cp -r www/dist _site/dist
+          cp -r build/. _site/
 
       - name: Publish to gh-pages branch
         uses: peaceiris/actions-gh-pages@v4
@@ -61,4 +51,4 @@ jobs:
           force_orphan: true
           user_name: github-actions[bot]
           user_email: 41898282+github-actions[bot]@users.noreply.github.com
-          commit_message: "Deploy docs: ${{ github.sha }}"
+          commit_message: "Deploy site: ${{ github.sha }}"

@@ -4,7 +4,7 @@ HTML = $(addprefix build/, $(addsuffix .html, $(DOCS)))
 JEMDOC ?= ./jemdoc
 
 .PHONY: all clean
-all: $(HTML) build/jemdoc-cvx.css build/fonts
+all: $(HTML) build/jemdoc-cvx.css build/fonts build/assets
 
 build/%.html: %.jemdoc MENU | build
 	$(JEMDOC) -o $@ $<
@@ -13,6 +13,10 @@ build/jemdoc-cvx.css: jemdoc-cvx.css | build
 	cp $< $@
 
 build/fonts: fonts | build
+	rm -rf $@
+	cp -r $< $@
+
+build/assets: assets | build
 	rm -rf $@
 	cp -r $< $@
 
