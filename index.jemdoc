@@ -3,13 +3,8 @@
 
 
 ~~~
-{}{img_left}{assets/tzikas_chatgpt.png}{Alexandros E. Tzikas}{190px}{}{}
-I am a PhD candidate in [https://sisl.stanford.edu SISL] at Stanford University, where I am advised by [https://mykel.kochenderfer.com Mykel J. Kochenderfer].
-I am also fortunate to collaborate with [https://web.stanford.edu/~boyd/ Stephen Boyd], [https://candes.su.domains Emmanuel Candès], and 
-[https://hastie.su.domains Trevor Hastie] in my role as a quantitative researcher at the [https://www.blackrock.com/corporate/ai BlackRock Palo Alto AI Lab]. 
-
-I completed my undergraduate studies in Electrical Engineering at the Aristotle University of Thessaloniki, with an emphasis on signal processing, communications and 
-information theory.
+{}{table}{}
+I am a PhD candidate in [https://sisl.stanford.edu SISL] at Stanford University, where I am advised by [https://mykel.kochenderfer.com Mykel J. Kochenderfer]. I am also fortunate to collaborate with [https://web.stanford.edu/~boyd/ Stephen Boyd], [https://candes.su.domains Emmanuel Candès], and [https://hastie.su.domains Trevor Hastie] in my role as a quantitative researcher at the [https://www.blackrock.com/corporate/ai BlackRock Palo Alto AI Lab]. I completed my undergraduate studies in Electrical Engineering at the Aristotle University of Thessaloniki, with an emphasis on signal processing, communications and information theory. | [img{190}{}{Alexandros E. Tzikas} assets/tzikas_chatgpt.png]
 ~~~
 
 == Research interests
