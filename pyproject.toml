@@ -4,7 +4,8 @@ version = "1.0.0"
 description = "jemdoc-cvx, a modernized fork of jemdoc with optional KaTeX rendering."
 readme = { text = "jemdoc-cvx (see repository for full documentation).", content-type = "text/plain" }
 requires-python = ">=3.11"
-license = { file = "LICENSE" }
+license = "GPL-3.0-or-later"
+license-files = ["LICENSE"]
 authors = [
   { name = "Alexandros E. Tzikas" },
 ]
@@ -12,7 +13,6 @@ keywords = ["jemdoc", "katex", "math", "static-site"]
 classifiers = [
   "Programming Language :: Python :: 3",
   "Programming Language :: Python :: 3 :: Only",
-  "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
   "Operating System :: OS Independent",
 ]
 
@@ -24,4 +24,8 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
+# This repository is intentionally a script-only distribution.
+# Without an explicit package list, setuptools tries to auto-discover
+# packages and mis-detects top-level directories like `assets/` and `fonts/`.
+packages = []
 script-files = ["jemdoc"]

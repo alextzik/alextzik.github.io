@@ -9,8 +9,10 @@
 /katexcache/
 
 # Python
+.venv/
 __pycache__/
 *.py[cod]
+*.egg-info/
 
 # macOS
 .DS_Store
