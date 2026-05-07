@@ -3,8 +3,17 @@ HTML = $(addprefix build/, $(addsuffix .html, $(DOCS)))
 
 JEMDOC ?= ./jemdoc
 
-.PHONY: all clean
+.PHONY: all clean test lint
 all: $(HTML) build/jemdoc-cvx.css build/fonts build/assets
+
+# CI targets
+test:
+	$(JEMDOC) --version >/dev/null
+	$(MAKE) clean
+	$(MAKE) all
+
+lint:
+	uvx ruff check --ignore E741 $(JEMDOC)
 
 build/%.html: %.jemdoc MENU | build
 	$(JEMDOC) -o $@ $<
