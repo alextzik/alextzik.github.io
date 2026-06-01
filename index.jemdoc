@@ -4,10 +4,11 @@
 
 ~~~
 {}{img_left}{assets/tzikas_chatgpt.png}{Alexandros E. Tzikas}{220px}{}{}
-I am a PhD candidate in [https://sisl.stanford.edu SISL] at Stanford University, where I am advised by [https://mykel.kochenderfer.com Mykel J. Kochenderfer].
+I am a PhD candidate in [https://sisl.stanford.edu SISL] at Stanford University. I am advised by [https://mykel.kochenderfer.com Mykel Kochenderfer] 
+and I also work with [https://web.stanford.edu/~boyd/ Stephen Boyd].
 
-I am also fortunate to collaborate with [https://web.stanford.edu/~boyd/ Stephen Boyd], [https://candes.su.domains Emmanuel Candès], and 
-[https://hastie.su.domains Trevor Hastie] in my role as a quantitative researcher at the [https://www.blackrock.com/corporate/ai BlackRock Palo Alto AI Lab]. 
+I am also fortunate to have collaborated with [https://candes.su.domains Emmanuel Candès], [https://hastie.su.domains Trevor Hastie],
+and [https://web.stanford.edu/~boyd/ Stephen Boyd] in my role as a quantitative researcher at the [https://www.blackrock.com/corporate/ai BlackRock Palo Alto AI Lab]. 
 
 I completed my undergraduate studies in electrical engineering at the Aristotle University of Thessaloniki, with an emphasis on signal processing, communications, and 
 information theory.
@@ -15,8 +16,10 @@ information theory.
 
 == Research interests
   I am generally interested in theory and applications at the intersection of (convex) optimization, statistics, and sequential decision-making under uncertainty. 
-  I enjoy building practical methods for problems in quantitative finance, state estimation, and control by grounding them in first principles and theoretical foundations.
+  I enjoy building practical methods for problems in quantitative finance, state estimation, and control that are grounded
+  in first principles and theoretical insights.
 == Contact
   - alextzik (at) stanford (dot) edu
   - [https://scholar.google.com/citations?user=G8nm_ycAAAAJ&hl=en Google Scholar]
+  - [https://www.linkedin.com/in/alexandrostzikas/ LinkedIn]
   - [https://github.com/alextzik GitHub]
