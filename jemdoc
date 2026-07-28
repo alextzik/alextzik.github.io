@@ -183,6 +183,7 @@ def standardconf():
   <!DOCTYPE html>
   <html lang="en">
   <head>
+    <meta name="google-site-verification" content="iRq509DCJXTJJIshNKWqYOfKxM56yo9RiNA31t0iEU4" />
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-HEV5SS3FJ9"></script>
     <script>
