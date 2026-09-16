@@ -1,0 +1,21 @@
+# jemdoc: menu{MENU}{projects.html}, showsource
+= Projects
+
+I am investigating a few interesting ideas with the help of Codex. The work presented here is exploratory.
+
+== Parallel Portfolio Backtests by Newton Iteration
+
+/September 2026/
+
+Portfolio backtests are typically sequential: each day's trades depend on the holdings left by the previous day.
+We explore a parallel approach using Newton's method to reconcile the full portfolio trajectory while evaluating daily investment decisions concurrently.
+Experiments with transaction costs and realistic portfolio constraints show close agreement with sequential backtests for long-only portfolios, while long-short portfolios remain more challenging.
+
+[assets/projects/simple_parallel_backtests.pdf Read the note (PDF)]
+
+
+== Identifying a trading strategy from its return sequence
+
+Can a trading strategy be identified from its returns alone? We compare three methods—-squared-error matching, covariance analysis, and variance-weighted PCA—-to identify momentum, mean-reversion, risk-parity, and equal-weight strategies from daily return histories.
+
+[assets/projects/strategy_identification.pdf Read the note (PDF)]

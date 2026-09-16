@@ -1,4 +1,4 @@
-DOCS = index papers news
+DOCS = index papers projects news
 HTML = $(addprefix build/, $(addsuffix .html, $(DOCS)))
 
 JEMDOC ?= ./jemdoc
