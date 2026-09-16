@@ -16,6 +16,8 @@ Experiments with transaction costs and realistic portfolio constraints show clos
 
 == Identifying a trading strategy from its return sequence
 
+/September 2026/
+
 Can a trading strategy be identified from its returns alone? We compare three methods—-squared-error matching, covariance analysis, and variance-weighted PCA—-to identify momentum, mean-reversion, risk-parity, and equal-weight strategies from daily return histories.
 
 [assets/projects/strategy_identification.pdf Read the note (PDF)]
