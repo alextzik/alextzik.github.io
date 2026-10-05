@@ -1,7 +1,7 @@
 # jemdoc: menu{MENU}{projects.html}, showsource
 = Projects
 
-I am investigating a few interesting ideas with the help of Codex. The work presented here is exploratory.
+I am investigating a few interesting ideas with the help of Codex and GPT-6 Astra. The work presented here is exploratory. It is in order of preference. 
 
 == Parallel portfolio backtests by Newton iteration
 
@@ -12,6 +12,15 @@ We explore a parallel approach using Newton's method to reconcile the full portf
 Experiments with transaction costs and realistic portfolio constraints show close agreement with sequential backtests for long-only portfolios, while long-short portfolios remain more challenging.
 
 [assets/projects/simple_parallel_backtests.pdf Read the note (PDF)]
+
+== Learning alpha maps for convex portfolio optimization
+
+/October 2026/
+
+We learn linear combinations of alpha signals by differentiating through convex portfolio optimization, 
+and test whether they improve out-of-sample Sharpe ratios over conditional-mean forecasts under trading costs and portfolio constraints.
+
+[assets/projects/learning_alpha_maps.pdf Read the note (PDF)]
 
 
 == Identifying a trading strategy from its return sequence
